@@ -7,7 +7,6 @@ const Country = (country = country) => {
         <img class="card-img-top" src={country.country.flags.png} alt="Country Flag" />
         <div class="card-body">
             <h6>{country.country.name.common}</h6>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
         </div>
     </div>
   )

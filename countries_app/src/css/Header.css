@@ -4,27 +4,11 @@
     background-position: center;
     background-size: cover;
     position: relative;
+    margin-bottom: 50px;
 }
 .welcome-text{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
-.menu{
-    /* padding-left: 200px; */
-    padding-top: 15px;
-    height: 50px;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: space-evenly;
-}
-.menu ul li{
-    list-style: none;
-    display: inline-block;
-    padding-right: 15px;
-}
-.menu ul li a{
-    /* color: grey; */
-    text-decoration: none;
 }
