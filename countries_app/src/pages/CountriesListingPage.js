@@ -30,17 +30,17 @@ const CountriesListingPage = () => {
     useEffect(() => {
         getCountries("");
       }, []);
-    
+
     return (
         <>  
-            <div class="main form-group has-search">
+            <div class="search-box form-group has-search">
                 <span class="fa fa-search form-control-feedback"></span>
                 <input type="text" class="form-control" placeholder="Search" onInput={(e) => getCountries(e.target.value)}/>
             </div>
-            <div className="heading">
-                <h1><b>All Countries</b></h1>
-            </div>
             <div className='container'>
+                <div className="heading">
+                    <h1><b>All Countries</b></h1>
+                </div>
                 <div
                     style={{
                         "display": "flex",
